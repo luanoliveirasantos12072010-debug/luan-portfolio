@@ -8,12 +8,12 @@
 <meta property="og:title" content="Luan Oliveira · Estúdio digital">
 <meta property="og:description" content="Sites, design, tráfego pago, vídeos e fotos para o seu negócio crescer no digital.">
 <meta property="og:image" content="img/sites/psi-marilia-ciriaco.webp">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23ff7a59'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='700' font-size='30' text-anchor='middle' fill='%23fff'%3ELO%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%238b5cff'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='700' font-size='30' text-anchor='middle' fill='%23fff'%3ELO%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-/* Estúdio digital do Luan · creme + índigo suave + coral, lilás e menta. Sem preto. */
-:root{--bg:#f7f3ee;--paper:#fffdf9;--ink:#26234a;--mid:#6d6a86;--line:#e7e0d6;--coral:#ff7a59;--coralL:#ffe1d6;--lilac:#b9a7f5;--lilacL:#ece6ff;--mint:#8fd9bd;--mintL:#dcf5ea;--sun:#ffc85c;--sunL:#fff0cc;--sky:#8ec5ff;--skyL:#e2f0ff;--disp:'Bricolage Grotesque',Inter,system-ui,sans-serif;--serif:'Instrument Serif',Georgia,serif;--body:Inter,system-ui,sans-serif;--r:28px;--ease:cubic-bezier(.2,.8,.2,1);--spring:cubic-bezier(.34,1.56,.64,1)}
+/* Estúdio digital do Luan · roxo profundo com lilás, pêssego e menta. Sem preto. */
+:root{--bg:#1c1433;--paper:#271c47;--ink:#f5f0ff;--mid:#b9aed8;--line:rgba(255,255,255,.1);--coral:#ff9a76;--coralL:rgba(255,154,118,.14);--lilac:#b69cff;--lilacL:rgba(182,156,255,.14);--mint:#7fe0c0;--mintL:rgba(127,224,192,.12);--sun:#ffd27a;--sunL:rgba(255,210,122,.14);--sky:#8ec5ff;--skyL:rgba(142,197,255,.13);--deep:#241a45;--disp:'Bricolage Grotesque',Inter,system-ui,sans-serif;--serif:'Instrument Serif',Georgia,serif;--body:Inter,system-ui,sans-serif;--r:28px;--ease:cubic-bezier(.2,.8,.2,1);--spring:cubic-bezier(.34,1.56,.64,1)}
 *{box-sizing:border-box;margin:0;padding:0}
 [hidden]{display:none!important}
 html{scroll-behavior:smooth;overflow-x:clip}
@@ -293,6 +293,48 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .ai-f svg{width:18px;height:18px}
 @media(max-width:560px){.ai-btn{padding:6px}.ai-btn .t{display:none}.ai-tip{max-width:calc(100vw - 110px)}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.rv{opacity:1;transform:none}}
+
+/* ===== Tema roxo ===== */
+body{background:radial-gradient(1200px 700px at 85% -10%,rgba(150,92,255,.28),transparent 60%),radial-gradient(900px 600px at -10% 40%,rgba(201,79,158,.16),transparent 60%),radial-gradient(900px 700px at 110% 80%,rgba(90,70,220,.2),transparent 60%),var(--bg);background-attachment:fixed}
+::selection{background:var(--lilac);color:var(--deep)}
+.btn.p{background:linear-gradient(135deg,#f5f0ff,#e3d6ff);color:var(--deep);box-shadow:0 18px 34px -16px rgba(182,156,255,.7)}
+.btn.p:hover{background:#fff}
+.btn.c{background:linear-gradient(135deg,#ff9a76,#ff7aa8);color:#fff;box-shadow:0 18px 34px -14px rgba(255,122,168,.7)}
+.btn.o:hover{color:var(--deep)}
+.top .bar{background:rgba(28,20,51,.72);box-shadow:0 0 0 1px rgba(255,255,255,.08),0 18px 40px -20px rgba(0,0,0,.5)}
+.brand .mk,.ld .mk,.ai-btn .av,.ai-h .av{background:linear-gradient(135deg,#8b5cff,#ff7aa8)}
+.ld{background:#150f29;color:var(--ink)}
+.hero .b1{background:#6d3fe0;opacity:.35}.hero .b2{background:#c94f9e;opacity:.28}.hero .b3{background:#3a8fd9;opacity:.22}
+.sv{box-shadow:inset 0 0 0 1px rgba(255,255,255,.08),0 30px 50px -40px rgba(0,0,0,.7);backdrop-filter:blur(6px)}
+.sv .ic{background:rgba(255,255,255,.1)}
+.sv .ar{background:rgba(255,255,255,.12)}
+.glow::after{background:radial-gradient(240px circle at var(--mx,50%) var(--my,50%),rgba(182,156,255,.22),transparent 60%)}
+.belt{background:linear-gradient(90deg,#7b4dff,#b84fd6,#ff7aa8);color:#fff}
+.belt span i{color:#fff}
+.card .scr .go,.ba .t.a{color:var(--deep)}
+.card .scr .m{box-shadow:0 0 0 4px #120c24,0 20px 30px -14px rgba(0,0,0,.7)}
+.stack .ph{box-shadow:0 0 0 6px #120c24,0 30px 50px -30px rgba(0,0,0,.8)}
+.stack a,.card,.feed button,.phone{box-shadow:inset 0 0 0 1px var(--line),0 40px 60px -40px rgba(0,0,0,.7)}
+.dz{background:linear-gradient(160deg,rgba(182,156,255,.16),rgba(255,122,168,.08));box-shadow:inset 0 0 0 1px var(--line)}
+.vd{background:linear-gradient(160deg,#2d1f5c,#1a1236);box-shadow:inset 0 0 0 1px var(--line)}
+.vd h2{color:var(--ink)}.vd .lead{color:var(--mid)}.vd .kick{background:rgba(255,255,255,.08);color:var(--ink)}
+.phone{background:#120c24}.phone .sc{color:#26234a}.phone .hd small{color:#6d6a86}
+.gad h5{color:#9cc2ff}
+.final{background:linear-gradient(135deg,#6d3fe0,#b84fd6 55%,#ff7aa8)}
+.final .btn.p{background:#fff;color:var(--deep)}
+.ai-btn{background:var(--paper);color:var(--ink);box-shadow:inset 0 0 0 1px var(--line),0 20px 40px -18px rgba(0,0,0,.8)}
+.ai-btn .av::after{box-shadow:0 0 0 2px var(--paper)}
+.ai-h{background:linear-gradient(135deg,#3a2a74,#2a1f55);color:var(--ink)}
+.ai-h button{color:var(--ink)}
+.msg.me{background:linear-gradient(135deg,#8b5cff,#b84fd6)}
+.ai-f button{background:linear-gradient(135deg,#8b5cff,#ff7aa8)}
+.lbx{background:rgba(18,12,36,.92)}
+.lbx button{color:var(--deep);background:var(--ink)}
+.tabs button.on{background:var(--ink);color:var(--deep)}
+.count{background:linear-gradient(135deg,#ff9a76,#ff7aa8,#b69cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero h1 .se{background:linear-gradient(120deg,#ff9a76,#ff7aa8 50%,#b69cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.waf{box-shadow:0 18px 34px -14px rgba(37,211,102,.6)}
+.ba .hd i,.reel .pl span,.lbx button{color:var(--deep)}
 </style>
 </head>
 <body>
